@@ -1,8 +1,8 @@
 name: Manually Triggered
 on:
-    workflow-dispatch:
+    workflow_dispatch:
 
- jobs:
+jobs:
     log-info:
         runs-on: ubuntu-latest
         steps:
